@@ -1,0 +1,4 @@
+weekly_sales = pd.DataFrame(sales_amounts,
+                            index=["Mon", "Tues", "Wed", "Thurs", "Fri"],
+                            columns=["Almond butter", "Peanut butter", "Cashew butter"])
+weekly_sales
